@@ -1,3 +1,5 @@
+.firebase/
+.firebaserc
 dist/
 dist-dev/
 dist-prod/

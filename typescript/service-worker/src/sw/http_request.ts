@@ -15,6 +15,7 @@ import { idlFactory } from '../http-interface/canister_http_interface';
 import { streamContent } from './streaming';
 
 const hostnameCanisterIdMap: Record<string, [string, string]> = {
+  'codebase.org': ['xs2jg-4aaaa-aaaam-qayea-cai', 'ic0.app'],
   'identity.ic0.app': ['rdmx6-jaaaa-aaaaa-aaadq-cai', 'ic0.app'],
   'nns.ic0.app': ['qoctq-giaaa-aaaaa-aaaea-cai', 'ic0.app'],
   'dscvr.one': ['h5aet-waaaa-aaaab-qaamq-cai', 'ic0.app'],
